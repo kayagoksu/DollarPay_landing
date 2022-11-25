@@ -1,0 +1,20 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;600;700;800&display=swap");
+
+body{
+    margin: 0;
+}
+
+.bg-img{
+    background-image: url("./images/Path_3535.png");
+}
+
+.icon{
+    height: 4rem;
+    text-align: left;
+}
+
+.card{
+    border: none;
+}
