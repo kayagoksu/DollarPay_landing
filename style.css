@@ -2,9 +2,32 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;600;700;800&display=swap");
 
+.active {
+    --bs-navbar-active-color: #F12E41;
+}
 
-.bg-img {
-    background-image: url("./images/Path_3535.png");
+.btn {
+    background-color: #EBEBEB;
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 0.50rem;
+}
+
+.btn:hover {
+    background-color: #FF4159;
+    color: #FFFFFF;
+}
+
+.btn2 {
+    background-color: #F12E41;
+    color: #FFFFFF;
+}
+
+.background {
+    background-image: url("./images/Background.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
 
 .icon {
@@ -23,4 +46,16 @@
 .phone {
     max-width: 15vw;
     max-height: 50vh;
+}
+
+.nav {
+    --bs-nav-link-color: none;
+    --bs-nav-link-hover-color: none;
+}
+
+.underline {
+    height: 1px;
+    background: #E5E6E6;
+    margin-left: auto;
+    margin-right: auto;
 }
