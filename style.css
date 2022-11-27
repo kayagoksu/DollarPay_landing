@@ -2,19 +2,25 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;600;700;800&display=swap");
 
-body{
-    margin: 0;
-}
 
-.bg-img{
+.bg-img {
     background-image: url("./images/Path_3535.png");
 }
 
-.icon{
+.icon {
     height: 4rem;
     text-align: left;
 }
 
-.card{
+.card {
     border: none;
+}
+
+.dark-bg {
+    background-color: #0A1F38;
+}
+
+.phone {
+    max-width: 15vw;
+    max-height: 50vh;
 }
