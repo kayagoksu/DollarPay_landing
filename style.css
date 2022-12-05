@@ -23,15 +23,28 @@
 }
 
 .background {
-    background-image: url("./images/Background.svg");
-    background-size: cover;
-    background-position: center center;
+    background-image: url('./images/Background.svg');
+    background-position: right;
+    height: 1000px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .icon {
     height: 4rem;
     text-align: left;
+}
+
+.icon2 {
+    /* position: absolute;
+    right: 50px;
+    top: 850px; */
+    z-index: 1;
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1635px;
+    top: 986px;
 }
 
 .card {
