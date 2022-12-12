@@ -2,8 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;700&family=Poppins:wght@300;600;700;800&display=swap');;
 
-.active {
-    --bs-navbar-active-color: #F12E41;
+.text-danger{
+    color: #F12E41;
 }
 
 .btn {
