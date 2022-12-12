@@ -1,6 +1,6 @@
 /* fonts */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;700&family=Poppins:wght@300;600;700;800&display=swap');;
 
 .active {
     --bs-navbar-active-color: #F12E41;
@@ -44,7 +44,7 @@
     width: 33px;
     height: 33px;
     left: 1635px;
-    top: 986px;
+    top: 586px;
 }
 
 .card {
@@ -53,6 +53,7 @@
 
 .dark-bg {
     background-color: #0A1F38;
+    padding-top: 100px;
 }
 
 .phone {
@@ -76,13 +77,185 @@ body {
     font-family: 'Poppins';
 }
 
+.nav-text{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22.5596px;
+        line-height: 34px;
+}
+
+.nav-btn{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.6534px;
+    line-height: 28px;
+}
+
 .landing-head {
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
     line-height: 70px;
     /* or 141% */
-
-
     color: #171A34;
+}
+
+.landing-head-2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.8133px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+    color: #171A34;
+    opacity: 0.82;
+}
+
+.landing-head-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22.9013px;
+    line-height: 34px;
+    color: #171A34;
+    opacity: 0.72;
+}
+
+.cards-main-head{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 60px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.card-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.banner-head{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.banner-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.review-head{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 46px;
+    /* identical to box height */    
+    color: #000000;
+}
+
+.review-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.review-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #0A1F38;
+}
+
+.review-occupation{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height */    
+    color: #000000;
+}
+
+.footer-nav{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.footer-brand{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: -0.001em;
+    color: #000000;
+}
+
+a{
+    color: none;
+    text-decoration: none;
+}
+
+.phone-circle{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+}
+
+section#cards{
+    padding-bottom: 100px;
+}
+
+section#banner{
+    padding: 100px 0;
+}
+
+section#review{
+    padding: 100px 0;
+}
+
+.person{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+.img-phone{
+    position: absolute;
+    width: 500px;
+    height: 825px;
+}
+
+.img-phone2{
+    position: absolute;
+    width: 500px;
+    height: 825px;
+    left: 1200px;
 }
