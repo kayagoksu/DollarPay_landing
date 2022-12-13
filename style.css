@@ -22,12 +22,41 @@
     color: #FFFFFF;
 }
 
-.background {
+.background_home {
     background-image: url('./images/Background.svg');
     background-position: right;
     height: 1000px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.background_about{
+    background-image: url('./images/Group\ 6090.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 1500px;
+    position: relative;
+    z-index: -1;
+
+}
+
+.bg_about_card{
+    background-image: url('./images/Group\ 6036.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    height: 1350px;
+    top: -600px;
+}
+
+.head_space{
+    position: relative;
+    top: 50px;
+}
+
+section#faq{
+    position: relative;
+    top: -500px;
 }
 
 .icon {
