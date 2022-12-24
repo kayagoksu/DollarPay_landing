@@ -288,3 +288,85 @@ section#review{
     height: 825px;
     left: 1200px;
 }
+
+.tnc h2{
+    /* position: absolute; */
+        /* width: 561px;
+        height: 60px; */
+        /* left: 440px;
+        top: 258.29px; */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 60px;
+        /* identical to box height */
+
+        color: #000000;
+}
+
+.tnc h3{
+    /* position: absolute; */
+        /* width: 464px;
+        height: 39px; */
+        /* left: 440px;
+        top: 398.91px; */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        /* identical to box height */
+    
+    
+        color: #000000;
+        padding-top: 3rem !important;
+}
+
+.tnc p{
+    /* position: absolute; */
+        /* width: 1040px;
+        height: 69px; */
+        /* left: 440px;
+        top: 489.77px; */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+    
+        color: #000000;
+        padding-top: 3rem !important;
+}
+
+footer{
+    padding-top: 10rem !important;
+}
+
+input#flexSwitchCheckChecked{
+    background-color: #F12E41;
+    border: none;
+}
+
+.btn#form{
+border-radius: 5rem;
+width: 100%;
+background-color: #F12E41;
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+img#map{
+    width: 100%;
+}
