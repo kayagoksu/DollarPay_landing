@@ -370,3 +370,12 @@ font-family: 'Poppins';
 img#map{
     width: 100%;
 }
+
+.contact h2{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 60px;
+        color: #000000;
+}
