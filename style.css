@@ -1,3 +1,9 @@
+body{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-family: 'Poppins';
+}
+
 /* fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;700&family=Poppins:wght@300;600;700;800&display=swap');;
@@ -30,33 +36,26 @@
     background-size: cover;
 }
 
-.background_about{
-    background-image: url('./images/Group\ 6090.svg');
-    background-repeat: no-repeat;
-    background-position: top right;
-    height: 1500px;
-    position: relative;
-    z-index: -1;
-
-}
-
-.bg_about_card{
-    background-image: url('./images/Group\ 6036.svg');
-    background-repeat: no-repeat;
-    background-position: left;
-    position: relative;
-    height: 1350px;
-    top: -600px;
-}
-
 .head_space{
     position: relative;
     top: 50px;
 }
 
 section#faq{
-    position: relative;
-    top: -500px;
+    padding-top: 15rem;
+}
+
+section#about{
+    height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.kadin{
+    /* max-width: 50%; */
+    /* max-height: 100%; */
+    left: 0;
+    position: absolute;
 }
 
 .icon {
@@ -100,10 +99,6 @@ section#faq{
     background: #E5E6E6;
     margin-left: auto;
     margin-right: auto;
-}
-
-body {
-    font-family: 'Poppins';
 }
 
 .nav-text{
