@@ -374,3 +374,69 @@ img#map{
         line-height: 60px;
         color: #000000;
 }
+
+h5#h5{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+}
+
+h5#h5_2{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+        color: #000000;
+}
+
+h5#h5_3{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20.8133px;
+        line-height: 31px;
+        letter-spacing: 0.1em;
+        color: #171A34;
+        opacity: 0.82;
+}
+
+h2#h2{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 60px;
+        color: #000000;
+}
+
+.form-label{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+        color: #222C47;
+}
+
+.form-control {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #606F81;
+
+    padding: 1rem;
+    border: none;
+    border-radius: 0rem;
+}
+
+.bg-form{
+    background-color: #F9F9F9;
+}
